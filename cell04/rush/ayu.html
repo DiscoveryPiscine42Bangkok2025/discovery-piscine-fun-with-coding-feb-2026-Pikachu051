@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rungnapa Chamchuen | UI/UX Designer</title>
+    <script src="lib/tailwind.js"></script>
+    <link href="lib/daisyUImin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="lib/animate.min.css" />
+    <script src="lib/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-base-100 font-sans">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar fixed top-0 z-50 bg-base-100/80 backdrop-blur-lg border-b border-base-300">
+        <div class="container mx-auto px-4">
+            <div class="flex-1">
+                <a href="index.html" class="btn btn-ghost text-xl font-bold text-[#F2BAE8]">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                </a>
+            </div>
+            <div class="flex-none hidden md:block">
+                <ul class="menu menu-horizontal gap-2">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="min-h-screen flex items-center pt-16 relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-[#F2BAE8]/20 via-base-100 to-[#0C7BB3]/20"></div>
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="avatar animate__animated animate__fadeInLeft">
+                    <div
+                        class="w-64 md:w-80 rounded-full ring-4 ring-[#F2BAE8] ring-offset-base-100 ring-offset-4 shadow-2xl">
+                        <img src="img/ayu.jpg" alt="Rungnapa Chamchuen" />
+                    </div>
+                </div>
+                <div class="text-center lg:text-left animate__animated animate__fadeInRight">
+                    <p class="text-[#F2BAE8] font-medium mb-2 uppercase tracking-widest">Hello, I'm</p>
+                    <h1
+                        class="text-4xl md:text-6xl font-bold mb-4 font-display bg-gradient-to-r from-[#F2BAE8] to-[#0C7BB3] bg-clip-text text-transparent">
+                        Rungnapa Chamchuen</h1>
+                    <h2 class="text-2xl md:text-3xl text-base-content/70 mb-4">UI/UX Designer</h2>
+                    <p
+                        class="text-lg text-base-content/60 sm:text-center md:text-center lg:text-left sm:max-w-5xl md:max-w-5xl lg:max-w-lg mb-6">
+                        Multimedia for Interactive Media major at
+                        KMITL specializing in UI/UX design, graphic design, and visual storytelling.</p>
+                    <div
+                        class="flex flex-wrap gap-3 max-sm:justify-center sm:justify-center md:justify-center lg:justify-start mb-6">
+                        <span class="badge badge-lg bg-[#F2BAE8] text-gray-800 border-0">KMITL</span>
+                        <span class="badge badge-lg bg-[#0C7BB3] text-white border-0">Web & Game Dev</span>
+                    </div>
+                    <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+                        <a href="#contact"
+                            class="btn bg-[#F2BAE8] hover:bg-[#e5a5d8] text-gray-800 border-0 btn-lg">Contact Me</a>
+                        <a href="#experience" class="btn btn-outline btn-lg">Experience</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-base-200/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-display">Design <span
+                    class="text-[#F2BAE8]">Skills</span></h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#F2BAE8]">Design Tools</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Figma</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Procreate</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Illustrator</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#0C7BB3]">UI/UX Design</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#0C7BB3] text-white border-0">User Flow</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Wireframing</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Prototyping</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Usability Testing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#F2BAE8]">Visual Design</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Information Architecture</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Visual Design</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Branding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#0C7BB3]">Development</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#0C7BB3] text-white border-0">HTML</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">CSS</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#F2BAE8]">Soft Skills</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Collaboration</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Responsibility</span>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Attention to Detail</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="card-title text-[#0C7BB3]">Languages</h3>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Thai (Native)</span>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Chinese (Intermediate)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-display">Work <span
+                    class="text-[#0C7BB3]">Experience</span></h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <div class="flex justify-between flex-wrap gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold">Graphic Designer - Internship</h3>
+                                <p class="text-[#F2BAE8]">ABROWN STUDIO</p>
+                            </div>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">May - Jul 2025</span>
+                        </div>
+                        <p class="text-base-content/70 mt-2">Gained design skills and experience working on real-world
+                            client projects in a professional studio environment.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <div class="flex justify-between flex-wrap gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold">UX/UI Designer - Freelance</h3>
+                                <p class="text-[#0C7BB3]">ละมุนภัณฑ์ ไอที จํากัด</p>
+                            </div>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Sep 2025</span>
+                        </div>
+                        <p class="text-base-content/70 mt-2">Conducted rapid prototyping to deliver a functional design
+                            solution under a tight deadline.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <div class="flex justify-between flex-wrap gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold">Media Production</h3>
+                                <p class="text-[#F2BAE8]">School of IT, KMITL</p>
+                            </div>
+                            <span class="badge bg-[#F2BAE8] text-gray-800 border-0">Nov 2024 - Feb 2025</span>
+                        </div>
+                        <p class="text-base-content/70 mt-2">Provided poster design, video editing, and thumbnail
+                            creation for Faculty Promotion materials.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <div class="flex justify-between flex-wrap gap-2">
+                            <div>
+                                <h3 class="text-xl font-bold">Teaching Assistant</h3>
+                                <p class="text-[#0C7BB3]">School of IT, KMITL</p>
+                            </div>
+                            <span class="badge bg-[#0C7BB3] text-white border-0">Jul - Oct 2024</span>
+                        </div>
+                        <p class="text-base-content/70 mt-2">Provided academic support in Multimedia Technology courses,
+                            helping students troubleshoot issues.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="py-24 bg-base-200/50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-display">Activities & <span
+                    class="text-[#F2BAE8]">Leadership</span></h2>
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="font-bold text-[#F2BAE8]">Staff of Workshop | OpenHouse 2024</h3>
+                        <p class="text-sm text-base-content/70">Taught and assisted students in Multimedia and Game
+                            Development Workshop.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="font-bold text-[#0C7BB3]">President of MELIT Club | 2024</h3>
+                        <p class="text-sm text-base-content/70">Led a club focused on developing communication skills,
+                            public speaking, and expression.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="font-bold text-[#F2BAE8]">Vice Head of Coordination | ITCamp 20</h3>
+                        <p class="text-sm text-base-content/70">Designed graphics for t-shirts, logos, and vinyl banners
+                            for the camp.</p>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-base-300 animate__animated animate__fadeInUp">
+                    <div class="card-body">
+                        <h3 class="font-bold text-[#0C7BB3]">Head of Coordination | Unite Camp 6</h3>
+                        <p class="text-sm text-base-content/70">Oversaw and monitored on-site operations to ensure no
+                            issues arise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-36">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-display">Get In <span
+                    class="text-[#F2BAE8]">Touch</span></h2>
+            <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                <a href="mailto:4rukich0@gmail.com"
+                    class="card bg-base-100 shadow-xl border border-base-300 hover:border-[#F2BAE8] transition-all hover:-translate-y-2">
+                    <div class="card-body items-center text-center">
+                        <div class="w-14 h-14 bg-[#F2BAE8]/20 rounded-full flex items-center justify-center mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#F2BAE8]" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold">Email</h3>
+                        <p class="text-base-content/60 text-sm">4rukich0@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/4rey0u4ru/"
+                    class="card bg-base-100 shadow-xl border border-base-300 hover:border-[#0C7BB3] transition-all hover:-translate-y-2">
+                    <div class="card-body items-center text-center">
+                        <div class="w-14 h-14 bg-[#0C7BB3]/10 rounded-full flex items-center justify-center mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#0C7BB3]" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold">Instagram</h3>
+                        <p class="text-base-content/60 text-sm">4rey0u4ru</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-center p-8 bg-base-200 border-t border-base-300">
+        <p class="font-bold">Rungnapa Chamchuen - UI/UX Designer</p>
+        <p class="text-sm text-base-content/40">KMITL - Multimedia for Interactive Media</p>
+        <a href="index.html" class="btn btn-ghost btn-sm">← Back to Team</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
